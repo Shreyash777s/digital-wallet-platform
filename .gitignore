@@ -1,0 +1,43 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# .NET build output
+bin/
+obj/
+
+# Test results
+TestResults/
+coverage/
+
+# JetBrains Rider
+.idea/
+
+# VS Code workspace settings
+.vscode/
+
+# Angular / Node.js
+node_modules/
+dist/
+.angular/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local application settings
+appsettings.Local.json
+appsettings.*.Local.json
+
+# Logs
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
